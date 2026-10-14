@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carles Martinez Chova · Cloud Platform Engineer</title>
+  <meta name="description" content="Cloud Platform Engineer (Azure & GCP, IaC, DevSecOps, IoT). Disponible para proyectos freelance y nuevas oportunidades.">
+  <meta property="og:title" content="Carles Martinez Chova · Cloud Platform Engineer">
+  <meta property="og:description" content="Plataformas cloud seguras por diseño, rentables y escalables.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232b3e4a'/><text x='50' y='66' font-size='52' text-anchor='middle' fill='%235eead4' font-family='monospace' font-weight='700'>CM</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">carles<span>.cloud</span></a>
+    <nav>
+      <a href="#services" data-i18n="nav.services">Servicios</a>
+      <a href="#experience" data-i18n="nav.experience">Experiencia</a>
+      <a href="#skills" data-i18n="nav.skills">Stack</a>
+      <a href="#education" data-i18n="nav.education">Formación</a>
+      <a href="#contact" class="btn-sm" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <button id="lang" class="lang" aria-label="Change language">EN</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow"><span class="dot"></span><span data-i18n="hero.status">Disponible para proyectos freelance y nuevas oportunidades</span></p>
+      <h1>Carles Martinez Chova</h1>
+      <p class="role">Cloud Platform Engineer · Azure &amp; GCP · IaC · Cybersecurity</p>
+      <p class="lead" data-i18n="hero.lead">Diseño, construyo y securizo plataformas cloud de principio a fin, desde el código de la aplicación hasta la red. Mi objetivo: plataformas seguras por diseño, rentables y fácilmente escalables.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact" data-i18n="hero.cta1">Trabajemos juntos</a>
+        <a class="btn" href="#experience" data-i18n="hero.cta2">Ver mi trayectoria</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/carlesmartinezchova" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <ul class="facts">
+        <li><strong>4+</strong><span data-i18n="facts.years">años en cloud &amp; ingeniería</span></li>
+        <li><strong>MSc</strong><span data-i18n="facts.msc">Ciberseguridad (UPV)</span></li>
+        <li><strong>EN C1</strong><span data-i18n="facts.lang">Inglés · Valenciano C2</span></li>
+        <li><strong>IoT</strong><span data-i18n="facts.iot">Telemetría a gran escala</span></li>
+      </ul>
+    </section>
+
+    <section id="services">
+      <h2 data-i18n="services.title">Servicios freelance</h2>
+      <p class="sub" data-i18n="services.sub">Para startups y pymes que necesitan infraestructura profesional sin montar un equipo de plataforma.</p>
+      <div class="grid">
+        <article class="card">
+          <h3 data-i18n="s1.t">Infraestructura como código</h3>
+          <p data-i18n="s1.d">Entornos Azure/GCP reproducibles con Terraform y Ansible: versionados, auditables y sin intervención manual.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s2.t">Despliegue y CI/CD</h3>
+          <p data-i18n="s2.d">Contenerización con Docker y pipelines con Azure DevOps o Jenkins para llevar tu backend a producción de forma fiable.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s3.t">Seguridad &amp; Zero Trust</h3>
+          <p data-i18n="s3.d">Redes con Private Endpoints, gestión de identidades (Keycloak / Azure AD) y buenas prácticas DevSecOps.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s4.t">Plataformas IoT y datos</h3>
+          <p data-i18n="s4.d">Ingesta de telemetría en tiempo real, pipelines de datos y aislamiento de datos sensibles de clientes.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s5.t">IA en producción</h3>
+          <p data-i18n="s5.d">Integración de servicios gestionados (Google Vertex AI) y motores de inferencia dentro de arquitecturas reales.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="s6.t">Observabilidad y costes</h3>
+          <p data-i18n="s6.d">Monitorización con Grafana/Elastic y optimización de recursos cloud para reducir el coste por dispositivo o servicio.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2 data-i18n="exp.title">Experiencia</h2>
+      <p class="sub" data-i18n="exp.sub">Mi trayectoria profesional, de la ingeniería industrial a la plataforma cloud.</p>
+      <ol class="timeline">
+        <li>
+          <div class="when">03/2025 — <span data-i18n="exp.present">Actualidad</span></div>
+          <h3>Cloud Platform Engineer <span class="at">· Zeleros</span></h3>
+          <p class="loc">Valencia, España</p>
+          <p data-i18n="z2.intro">Liderazgo técnico e ingeniería end-to-end de una plataforma IoT cloud de alto rendimiento que gestiona telemetría masiva de flotas de baterías distribuidas.</p>
+          <ul>
+            <li data-i18n="z2.a">Arquitectura cloud resiliente para ingesta de datos en tiempo real, orientada a operaciones críticas de gestión de flotas.</li>
+            <li data-i18n="z2.b">Motor de inferencia en tiempo real para diagnóstico instantáneo de baterías a partir de telemetría en vivo.</li>
+            <li data-i18n="z2.c">Pipelines de ingesta para el reentrenamiento de modelos desarrollados por el equipo de modelado.</li>
+            <li data-i18n="z2.d">Lógica backend/frontend y optimización de la aplicación para entornos contenerizados.</li>
+            <li data-i18n="z2.e">Provisionamiento automatizado con Terraform y Ansible: despliegues reproducibles sin intervención manual.</li>
+            <li data-i18n="z2.f">Arquitectura Zero Trust con Private Endpoints para aislar los datos sensibles de clientes.</li>
+            <li data-i18n="z2.g">Stack centralizado de observabilidad y optimización de recursos para minimizar el coste por dispositivo.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="when">06/2024 — 03/2025</div>
+          <h3>Azure Cloud Administrator <span class="at">· Idrica</span></h3>
+          <p class="loc">Valencia, España</p>
+          <ul>
+            <li data-i18n="i.a">Operaciones cloud híbridas: infraestructura Linux en Azure y on-premise, redes y seguridad.</li>
+            <li data-i18n="i.b">Orquestación de apps con Docker Swarm y provisionamiento con Terraform y Ansible.</li>
+            <li data-i18n="i.c">CI/CD con Jenkins y Azure DevOps para soluciones del sector del agua.</li>
+            <li data-i18n="i.d">Bases de datos PostgreSQL/MySQL y monitorización con Grafana y Elasticsearch.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="when">07/2022 — 06/2024</div>
+          <h3>Cloud Platform Engineer <span class="at">· Zeleros</span></h3>
+          <p class="loc">Valencia, España</p>
+          <p data-i18n="z1.d">Primera etapa en Zeleros, construyendo las bases de infraestructura cloud de la compañía.</p>
+        </li>
+        <li>
+          <div class="when">02/2021 — 07/2022</div>
+          <h3>LabVIEW Engineer <span class="at">· AUTIS Ingenieros</span></h3>
+          <p class="loc">Gandia, España</p>
+          <p data-i18n="a.d">Ingeniero de software junior en un equipo especializado en detección y reparación de defectos para automoción. Desarrollo de una solución a medida y colaboración con ingenieros de visión y mecánicos en un sistema robótico de reparación y pulido de superficies metálicas. Integración de sistemas, programación avanzada y gestión de bases de datos.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="skills">
+      <h2 data-i18n="skills.title">Stack técnico</h2>
+      <div class="skills">
+        <div><h3>Cloud</h3><p class="tags"><span>Azure</span><span>Google Cloud</span><span>Oracle Cloud (OCI)</span><span>Vertex AI</span></p></div>
+        <div><h3>IaC &amp; Automation</h3><p class="tags"><span>Terraform</span><span>Ansible</span><span>Docker</span><span>Docker Swarm</span></p></div>
+        <div><h3>CI/CD</h3><p class="tags"><span>Azure DevOps</span><span>Jenkins</span></p></div>
+        <div><h3>Security</h3><p class="tags"><span>Zero Trust</span><span>Private Endpoints</span><span>Keycloak</span><span>Azure AD</span><span>DevSecOps</span></p></div>
+        <div><h3>Data &amp; Observability</h3><p class="tags"><span>PostgreSQL</span><span>MySQL</span><span>Grafana</span><span>Elasticsearch</span></p></div>
+        <div><h3 data-i18n="skills.certs">Certificaciones</h3><p class="tags"><span>Oracle Cloud Foundations Associate</span><span>Google Cloud AI Infrastructure Professional</span><span>Cybersecurity</span></p></div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2 data-i18n="edu.title">Formación</h2>
+      <ul class="edu">
+        <li><strong data-i18n="e1.t">Máster Universitario en Ciberseguridad y Ciberinteligencia</strong><span>Universitat Politècnica de València · 2022 – 2023</span></li>
+        <li><strong data-i18n="e2.t">Ingeniería de Telecomunicaciones (mención en sistemas telemáticos)</strong><span>Universitat Politècnica de València · 2016 – 2021</span></li>
+        <li><strong>MBA Future Leaders</strong><span>ThePower Business School · 2022</span></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 data-i18n="c.title">Hablemos</h2>
+      <p class="sub" data-i18n="c.sub">¿Un proyecto freelance o una oportunidad? Cuéntame y te respondo en 24–48 h.</p>
+      <form id="form" class="form">
+        <label><span data-i18n="c.name">Nombre</span><input name="name" required></label>
+        <label><span>Email</span><input name="email" type="email" required></label>
+        <label><span data-i18n="c.msg">Mensaje</span><textarea name="msg" rows="5" required></textarea></label>
+        <button class="btn primary" type="submit" data-i18n="c.send">Enviar por email</button>
+      </form>
+      <p class="links">
+        <a href="mailto:carlesmartinezchova@gmail.com">carlesmartinezchova@gmail.com</a> ·
+        <a href="https://www.linkedin.com/in/carlesmartinezchova" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Carles Martinez Chova · carlesmartinezchova.cloud</footer>
+  <script src="script.js"></script>
+</body>
+</html>
