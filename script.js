@@ -1,7 +1,7 @@
 const EN = {
   "role": "Cloud Platform Engineer · Valencia, Spain",
   "intro.1": "I help companies take their product to the cloud and keep it running: secure, stable and with no surprises on the bill.",
-  "intro.2": "I'm a telecommunications engineer with a master's in cybersecurity. I work as a Cloud Platform Engineer at Zeleros, take on freelance projects and am open to new opportunities.",
+  "intro.2": "I'm a telecommunications engineer with a master's in cybersecurity. I work as a Cloud Platform Engineer at Zeleros and collaborate on freelance projects.",
   "link.contact": "Get in touch", "link.exp": "Experience",
   "h.services": "How I can help",
   "s1.t": "Put your product in the cloud", "s1.d": "I set up the infrastructure so your application runs reliably and can grow when more users arrive.",
@@ -20,7 +20,7 @@ const EN = {
   "e1": "MSc in Cybersecurity and Cyberintelligence", "e2": "Telecommunications Engineering",
   "certs": "Certifications", "langs": "Languages: Spanish, Valencian and English (C1).",
   "h.contact": "Contact",
-  "c.p": "Have a project in mind or a job offer? Write to me and I'll reply within a day or two.",
+  "c.p": "Have a project in mind or want to talk? Write to me and I'll reply within a day or two.",
   "c.copy": "Copy", "c.copied": "Copied"
 };
 
