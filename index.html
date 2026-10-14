@@ -25,13 +25,17 @@
   </header>
 
   <section class="intro">
-    <p class="big" data-i18n="intro.1">Ayudo a empresas a llevar su producto a la nube y a mantenerlo funcionando: seguro, estable y sin sorpresas en la factura.</p>
+    <p class="big"><span data-i18n="intro.1">Ayudo a empresas a llevar su producto a la nube y a mantenerlo funcionando: seguro, estable y sin sorpresas en la factura.</span><span class="caret" aria-hidden="true"></span></p>
     <p data-i18n="intro.2">Soy ingeniero de telecomunicaciones con un máster en ciberseguridad. Trabajo como Cloud Platform Engineer en Zeleros y colaboro en proyectos freelance.</p>
     <p class="links">
       <a href="#contact" data-i18n="link.contact">Escríbeme</a>
       <a href="https://www.linkedin.com/in/carlesmartinezchova" target="_blank" rel="noopener">LinkedIn</a>
       <a href="#experience" data-i18n="link.exp">Experiencia</a>
     </p>
+    <div class="editor" aria-hidden="true">
+      <div class="ed-bar"><span class="ed-dots"><i></i><i></i><i></i></span><span class="ed-tab">tu-proyecto/main.tf</span></div>
+      <pre class="ed-code"><span class="l"><span class="k">module</span> <span class="s">"tu_producto"</span> {</span><span class="l">  source  = <span class="s">"./nube"</span></span><span class="l">  seguro  = <span class="b">true</span></span><span class="l">  escalar = <span class="s">"automático"</span></span><span class="l">  coste   = <span class="s">"lo que usas"</span></span><span class="l ghost-line"><span class="ghost">  en_produccion = true</span><span class="kbd">Tab</span></span><span class="l">}</span></pre>
+    </div>
   </section>
 
   <section id="services">
